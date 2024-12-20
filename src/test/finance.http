@@ -1,0 +1,22 @@
+### Add pemasukan
+POST http://localhost:8080/api/tabungan/pemasukan
+Content-Type: application/json
+
+{
+  "jumlah": 500000
+}
+
+### Add pengeluaran
+POST http://localhost:8080/api/tabungan/pengeluaran
+Content-Type: application/json
+
+{
+  "jumlah": 10000,
+  "tanggal": "2024-12-"
+}
+
+### Get riwayat pengeluaran
+GET http://localhost:8080/api/tabungan/pengeluaran
+
+### Get tabungan
+GET http://localhost:8080/api/tabungan/
