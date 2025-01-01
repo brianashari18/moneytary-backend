@@ -35,4 +35,6 @@ public class Tabungan {
     @OneToMany(mappedBy = "tabungan", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Pengeluaran> pengeluaran;
 
+
+
 }
